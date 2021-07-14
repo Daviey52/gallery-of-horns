@@ -3,5 +3,17 @@
 }
 
 img{
-  size: 200px;
+  width: 450px;
+}
+
+.hornedbeast{
+  border: solid aqua;
+  width:max-content;
+  margin:auto;
+  margin-bottom: 30px;
+  padding:15px;
+}
+
+.heart{
+  cursor:pointer
 }
