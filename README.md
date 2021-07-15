@@ -13,5 +13,36 @@ I built a React app that displays an array of images and desciption that allows 
 
 ### Reflections and Comments
 
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* Number and name of feature: Feature #1: Display Images
+
+* Estimate of time needed to complete: 1 hr
+
+* Start time: 08:30
+
+* Finish time: 10:30
+
+* Actual time needed to complete: 2 hrs
+
+## 2
+
+* Number and name of feature: Feature #1: Allow users to vote for their Favourite Beast
+
+* Estimate of time needed to complete: 1 hr
+
+* Start time: 07:30
+
+* Finish time: 08:10
+
+* Actual time needed to complete: 30 mins
+
+## 3
+
+* Number and name of feature: Feature #3:  Bootstrap
+
+* Estimate of time needed to complete: 1 hr
+
+* Start time: 08:30
+
+* Finish time: 10:00
+
+* Actual time needed to complete: 1hr:30mins
