@@ -1,6 +1,5 @@
 # LAB - 02
 
-## Project Name: Gallery of Horns
 
 I built a React app that displays an array of images and desciption that allows a users to click on images to favour them while updating counters appropriately. This project builds on a prior lab that was more of an introduction to React.
 
