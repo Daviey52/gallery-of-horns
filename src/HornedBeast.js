@@ -1,7 +1,7 @@
 import React from 'react';
 import CardColumns from 'react-bootstrap/CardColumns';
 import Card from 'react-bootstrap/Card';
-import './HornedBeast.css';
+//import './HornedBeast.css';
 
 
 class HornedBeast extends React.Component {
