@@ -1,5 +1,4 @@
 import React from 'react';
-import CardColumns from 'react-bootstrap/CardColumns';
 import Card from 'react-bootstrap/Card';
 //import './HornedBeast.css';
 
@@ -13,23 +12,25 @@ class HornedBeast extends React.Component {
     }
   }
 
-  clicksCounter = () => {
+  clicksCounterShowModal = () => {
     this.setState({
       numberofclicks: this.state.numberofclicks + 1,
-    })
-
+    });
+    this.props.handleshowModal(this.props.beast);
   }
-
   render() {
     return (
-      <CardColumns>
-        <Card className="hornedbeast" style={{ width: "30em" }}>
-          <Card.Title>{this.props.title}</Card.Title>
-          <Card.Img className="heart" src={this.props.imageUrl} alt={this.props.description} onClick={this.clicksCounter} />
-          <Card.Text>{this.state.numberofclicks} ❤️</Card.Text>
-          <Card.Text>{this.props.description}</Card.Text>
-        </Card >
-      </CardColumns>
+      <Card>
+        <div className="hornedbeast" style={{ width: "30em" }}>
+          <h2>{this.props.beast.title} </h2>
+          <Card.Img className="heart" src={this.props.beast.image_url} alt={this.props.beast.description} onClick={this.clicksCounterShowModal} />
+
+          <p>{this.state.numberofclicks} ❤️</p>
+          <Card.Title>{this.props.beast.description}</Card.Title>
+          <p> Number of Horns {this.props.beast.horns}</p>
+
+        </div>
+      </Card>
     );
   }
 }
