@@ -6,6 +6,7 @@ import Footer from './footer.js';
 import './App.css';
 import data from './data.json';
 
+
 class App extends React.Component {
   constructor (props) {
     super(props);
